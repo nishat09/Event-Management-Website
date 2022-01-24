@@ -24,8 +24,44 @@
 
     <!-- header start -->
     <header>
-        <nav>
 
+        <!-- toast -->
+
+        <div class="toast " role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+                <img src="images/wedding.png" class="rounded me-2" alt="...">
+                <strong class="me-auto">Bootstrap</strong>
+                <small>11 mins ago</small>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body" style="display: block;">
+                Hello, world! This is a toast message.
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <h1>Iconic Planner</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Offers</a>
+                        </li>
+
+
+                    </ul>
+
+                </div>
+            </div>
         </nav>
 
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
@@ -41,42 +77,41 @@
                 <div class="carousel-item active">
                     <img src="images/banner-1.png" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                        <h1 class="fw-bolder fs-1">Worrying how to manage your upcoming event? Organize The Most
+                        <h2 class="">Worrying how to manage your upcoming event? Organize The Most
                             Beautiful
-                            Event With Us.</h1>
-                        <p>Don't need to worry about planning events anymore. Knock us. We are there for you 24/7</p>
-                        <button type="button" class="btn btn-primary btn-lg mb-5 rounded-2"><a
-                                href="www.google.com"></a>
-                            <h2>Book Now</h2>
-                            </a>
+                            Event With Us.</h2>
+                        <p>Don't need to worry about planning events anymore. Knock us. We are there for you 24/7
+                        </p>
+                        <button type="button" class="btn btn-primary btn-lg mb-5 rounded-2">
+                            <a href="login-form.html">Book Now</a>
                         </button>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="images/banner-2.jpg" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                        <h1 class="fw-bolder fs-1">Organize the most beautiful events at your comfortable price!!!</h1>
-                        <p>Don't need to worry about planning events anymore. Knock us. We are there for you 24/7.</p>
-                        <button type="button" class="btn btn-primary btn-lg mb-5 rounded-2"><a
-                                href="www.google.com"></a>
-                            <h2>Book Now</h2>
-                            </a>
-                        </button>
+                        <h2 class="">Organize the most beautiful events at your comfortable price!!!
+                            </h1>
+                            <p>Don't need to worry about planning events anymore. Knock us. We are there for you 24/7.
+                            </p>
+                            <button type="button" class="btn btn-primary btn-lg mb-5 rounded-2">
+                                <a href="login-form.html">Book Now</a>
+                            </button>
 
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="images/banner-3.jpg" class="d-block w-100 h-50" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                        <h1 class="fw-bolder fs-1">Knock us for the most beautiful and desired events.You have a cup of
+                        <h2 class="">Knock us for the most beautiful and desired events.You have a cup
+                            of
                             tea
                             and CHILLL!!!</h1>
-                        <p>Don't need to worry about planning events anymore. Knock us. We are there for you 24/7.</p>
-                        <button type="button" class="btn btn-primary btn-lg mb-5 rounded-2"><a
-                                href="www.google.com"></a>
-                            <h2>Book Now</h2>
-                            </a>
-                        </button>
+                            <p>Don't need to worry about planning events anymore. Knock us. We are there for you 24/7.
+                            </p>
+                            <button type="button" class="btn btn-primary btn-lg mb-5 rounded-2">
+                                <a href="login-form.html">Book Now</a>
+                            </button>
                     </div>
                 </div>
             </div>
@@ -208,6 +243,12 @@
                 </div>
                 <div class="col  ">
                     <div class="card  border-0 card-premium ">
+
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                            Hot
+                            <span class="visually-hidden">unread messages</span>
+                        </span>
+                        </button>
                         <div class="card-body  ">
                             <h1 style="color: white;" class="card-title ">$900</h1>
                             <h1 style="color: white;" class="card-title ">Wedding Plus</h1>
@@ -233,7 +274,7 @@
 
 
 
-                            <h3 class="bg-h1-bottom px-5  text-primary shadow-lg ">Choose Plan</h3>
+                            <h3 class="bg-h1-bottom px-5  text-primary shadow-lg text-white ">Choose Plan</h3>
                         </div>
                     </div>
                 </div>
@@ -241,7 +282,7 @@
                     <div class="card card-custom border-0">
                         <div class="card-body ">
                             <h1 class="card-title bg-card-h1">$1200</h1>
-                            <h1 class="card-title bg-card-h1">Coorporate Events</h1>
+                            <h1 class="card-title bg-card-h1">Coorporate</h1>
                             <p class="card-text bg-card-p">Your best option for organizing business events</p>
 
 
@@ -359,32 +400,40 @@
 
         <!-- footer -->
 
-        <footer class="container-fluid footer-custom">
+        <footer class="bg-dark">
 
-            <div class="container">
-                <div>
-                    <p class="text-white"><i style="color: white;" class="fas fa-copyright "></i>All Right Reserved By
-                        Nishat
-                        Aziz
-                    </p>
+            <p class="text-white text-center"><i style="color: white;" class="fas fa-copyright "></i>All Right Reserved
+                By
+                Nishat
+                Aziz
+            </p>
 
-                </div>
+            <div class="d-flex justify-content-center">
 
+                <h1 class="text-center me-5"><a
+                        href="https://play.google.com/store/apps/details?id=com.facebook.lite&hl=en&gl=US"><i
+                            style="color: white;" class="fab fa-google-play"></i></a></i></h1>
+                <h1 class="text-center"><a href="https://apps.apple.com/us/app/facebook/id284882215"><i
+                            style="color: white;" class="fab fa-app-store-ios"></i></a></i></h1>
 
-                <div>
-
-                    <i style="color: white;" class="fab fa-google-play"></i>
-                    <i style="color: white;" class="fab fa-app-store-ios"></i>
-                </div>
             </div>
 
         </footer>
+
 
         <!-- js bundle  -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
             crossorigin="anonymous"></script>
 
+
+
 </body>
+
+
+
+
+
+
 
 </html>
