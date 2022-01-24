@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/6bc40c77d9.js" crossorigin="anonymous"></script>
+    <style>
+        .form {
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        .login {
+            display: flex;
+            justify-content: center;
+            font-size: 2em;
+        }
+
+        .login input {
+            margin-bottom: 4px;
+            color: sandybrown;
+        }
+
+
+        .login button {
+            background-color: yellowgreen
+        }
+
+        h1 {
+            color: cadetblue;
+            text-align: center;
+        }
+
+        .div-1 a {
+            text-decoration: none;
+            color: coral;
+            font-size: 1.1em;
+            margin-right: 5px;
+
+        }
+
+        .div-2 a {
+            font-size: 2em;
+            margin-right: 20px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="div-1">
+                <a href="">Home</a>
+                <a href="">Products</a>
+                <a href="">Offers</a>
+                <a href="">About Us</a>
+            </div>
+            <div class="div-2">
+                <a href=""><i class="fas fa-user"></i></a>
+                <a href=""><i class="fas fa-sign-out-alt"></i></a>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+        <section class="login">
+            <form class="form" action="">
+                <h1>Login</h1>
+                <input type="email" name="email" id="" required placeholder="Enter Your Email">
+                <input type="password" name="password" id="" required placeholder="Enter Your password">
+                <button type="submit">Login</button>
+
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
