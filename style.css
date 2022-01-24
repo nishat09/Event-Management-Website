@@ -1,0 +1,42 @@
+.bg-h1-bottom{
+    background-color:  #f5ebf1;
+    border-radius: 24px;
+    height: 45px;
+    margin-top: 24px;
+    
+    
+
+}
+
+.bg-card-h1{
+    color: #231D4F;
+    font-weight: 700;
+    
+    
+}
+
+.bg-card-p{
+    color: #848199;
+
+}
+
+.margin{
+    margin-bottom: 200px;
+    margin-top: 100px;
+}
+
+.card-custom{
+
+    
+    
+    padding-top: 153px;
+}
+
+.card-premium{
+    background-color: rgba(24, 126, 243, 0.952);
+    
+    padding-top: 100px;
+    width: 105%;
+    border-radius: 26px;
+    
+}
